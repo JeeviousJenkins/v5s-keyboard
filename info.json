@@ -105,11 +105,11 @@
 		            ["A7", "A6", "A3", null, null, null]
                 ]
             }
-        }
+        },
         "soft_serial_pin": "B6",
         "bootmagic": {
             "matrix": [5, 2]
-        },
+        }
     },
     "usb": {
         "device_version": "0.9.1",
@@ -118,7 +118,7 @@
     },
 		"dynamic_keymap": {
 		    "layer_count": 9
-		}
+		},
     "build": {
         "lto": true
     }
