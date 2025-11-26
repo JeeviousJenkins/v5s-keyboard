@@ -1,10 +1,10 @@
 /*Remember to also change the color in keyboard_post_init_kb in boston.c to make the startup color match the layer 0 color */
 const rgblight_segment_t PROGMEM capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_CYAN});
-const rgblight_segment_t PROGMEM layer_1[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_CYAN});
+const rgblight_segment_t PROGMEM layer_1[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_BLUE});
 const rgblight_segment_t PROGMEM layer_2[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_GREEN});
-const rgblight_segment_t PROGMEM layer_3[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_BLUE});
-const rgblight_segment_t PROGMEM layer_4[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_YELLOW});
-const rgblight_segment_t PROGMEM layer_5[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_PURPLE});
+const rgblight_segment_t PROGMEM layer_3[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_YELLOW});
+const rgblight_segment_t PROGMEM layer_4[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_PURPLE});
+const rgblight_segment_t PROGMEM layer_5[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_MAGENTA});
 const rgblight_segment_t PROGMEM layer_6[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_ORANGE});
 const rgblight_segment_t PROGMEM layer_7[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_RED});
 const rgblight_segment_t PROGMEM layer_8[] = RGBLIGHT_LAYER_SEGMENTS({0, 2, HSV_PINK});
