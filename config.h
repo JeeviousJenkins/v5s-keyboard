@@ -4,7 +4,7 @@
 #define WS2812_DI_PIN A9
 #define RGBLIGHT_LED_COUNT 2
 #define RGBLIGHT_LED_MAP { 1, 0 }
-#define RGBLIGHT_LED_SPLIT { 1, 1 }
+#define RGBLED_SPLIT { 1, 1 }
 #define RGBLIGHT_LAYERS
 #define RGBLIGHT_MAX_LAYERS 7
 
