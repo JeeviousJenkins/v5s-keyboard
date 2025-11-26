@@ -6,7 +6,6 @@ enum custom_keycodes {   //must be declared before keymaps[] array
     CUT2HOME = SAFE_RANGE,
     CUT2END,
     CUTLINE,
-    XTIPS,
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -75,11 +74,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case CUTLINE:
         if (record->event.pressed) {
             SEND_STRING(SS_TAP(X_HOME) SS_DOWN(X_LSFT) SS_TAP(X_END) SS_TAP(X_RIGHT) SS_UP(X_LSFT) SS_RCTL("c") SS_TAP(X_DEL));
-        }
-        break;
-    case XTIPS:
-        if (record->event.pressed) {
-            SEND_STRING("X.Tips");
         }
         break;
     }
