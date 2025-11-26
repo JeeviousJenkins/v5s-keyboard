@@ -7,6 +7,7 @@
 #define RGBLED_SPLIT { 1, 1 }
 #define RGBLIGHT_LAYERS
 #define RGBLIGHT_MAX_LAYERS 7
+#define SPLIT_TRANSPORT_MIRROR
 
 //Enable rgb modes, by defining the effects to include
 //Uncomment the effects you want to include
