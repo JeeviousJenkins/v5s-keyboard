@@ -1,3 +1,4 @@
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
 VIAL_INSECURE = yes
+COMBOS_ENABLE = yes
