@@ -1,7 +1,6 @@
 {
-    "keyboard_name": "X.Tips V5s Keyboard",
-    "manufacturer": "umux.com",
-    "url": "http//www.umux.com",
+    "keyboard_name": "V5s Keyboard",
+    "manufacturer": "X.Tips",
     "maintainer": "X.Tips",
     "processor": "STM32F103",
     "bootloader": "stm32duino",

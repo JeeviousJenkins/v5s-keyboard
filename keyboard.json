@@ -1,7 +1,6 @@
 {
-  "name": "X.Tips V5s Keyboard",
-  "manufacturer": "umux.com",
-  "url": "http://www.umux.com",
+  "name": "V5s Keyboard",
+  "manufacturer": "X.Tips",
   "maintainer": "X.Tips",
   "matrix": {
     "rows": 10,
