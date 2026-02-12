@@ -10,5 +10,27 @@
          ["3,0","3,1","3,2","3,3","3,4","3,5",{"x":1},"8,0","8,1","8,2","8,3","8,4","8,5"],          
          [{"x":3},"4,3","4,4","4,5",{"x":1},"9,0","9,1","9,2"]
       ]
+    },
+  "customKeycodes": [
+    {
+      "name": "CUT2HOME",
+      "title": "Cut to Home",
+      "shortName": "CUT2H"
+    },
+    {
+      "name": "CUT2END",
+      "title": "Cut to End",
+      "shortName": "CUT2E"
+    },
+    {
+      "name": "CUTLINE",
+      "title": "Cut Line",
+      "shortName": "CUTLN"
+    },
+    {
+      "name": "KC_ALT_TAB",
+      "title": "Alt Tab",
+      "shortName": "A_TAB"
     }
-}
+  ]
+	}
